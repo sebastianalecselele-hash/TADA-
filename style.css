@@ -1,0 +1,18 @@
+div {
+  text-align: center;
+  overflow: hidden;
+  border: 2px  ;blue
+  width: 650px;
+}
+   .rotating-image {
+     animation: rotation 010ms infinite linear;
+   }
+
+   @keyframes rotation {
+     from {
+       transform: rotate(100000deg);
+     }
+     to {
+       transform: rotate(180deg);
+     }
+   }
